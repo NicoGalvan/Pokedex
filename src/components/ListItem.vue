@@ -10,7 +10,7 @@ const favoriteImage = computed(() => (props.favorite ? favoriteOn : favoriteOff)
 const emit = defineEmits(['setfavorite'])
 </script>
 <template>
-    <div class="flex justify-between items-center bg-[#FFFFFF] h-[60px] px-5 rounded-[5px]">
+    <div class="flex justify-between items-center bg-[#FFFFFF] h-[60px] px-5 rounded-[5px] cursor-pointer">
         <span class="text-[22px] text-gray-dark">
             {{ name }}
         </span>
