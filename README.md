@@ -1,3 +1,9 @@
+![image](https://github.com/user-attachments/assets/bf972d43-4da3-4837-9de2-a9dc5673f2fd)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe36a0c5-4f45-4cd1-bf33-30012bae9e66/deploy-status)](https://app.netlify.com/sites/nicolas-pokedex/deploys)
+
+Deploy: [Pokedex Deploy](https://nicolas-pokedex.netlify.app/)
+
 ## Tecnologías utilizadas
 
 Este proyecto está desarrollado con las siguientes tecnologías:
