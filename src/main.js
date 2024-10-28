@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate';
 import App from "./App.vue";
 import { createMemoryHistory, createRouter } from "vue-router";
 import "./index.css";
@@ -18,6 +19,7 @@ const router = createRouter({
 });
 
 const pinia = createPinia();
+pinia.use(piniaPluginPersistedstate);
 
 const app = createApp(App);
 
